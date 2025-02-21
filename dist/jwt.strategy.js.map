@@ -1,0 +1,1 @@
+{"version":3,"file":"jwt.strategy.js","sourceRoot":"","sources":["../lib/jwt.strategy.ts"],"names":[],"mappings":";;;AAAA,uDAAgD;AAGhD,MAAa,WAAW;IAAxB;QACY,gBAAW,GAAG,IAAI,6BAAW,EAAE,CAAC;IAK5C,CAAC;IAHG,QAAQ,CAAC,KAAa;QAClB,OAAO,IAAI,CAAC,WAAW,CAAC,WAAW,CAAC,KAAK,CAAC,CAAC;IAC/C,CAAC;CACJ;AAND,kCAMC"}

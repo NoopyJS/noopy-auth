@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "target": "ESNext",
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "module": "commonjs",
+    "target": "ES2021",
+    "declaration": true,
+    "rootDir": "lib",
+    "outDir": "dist",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "allowSyntheticDefaultImports": true
+    "skipLibCheck": true,
+    "types": ["node"]
   },
-  "exclude": ["node_modules", "dist",
-    "src/tests"
-  ]
+  "include": ["./lib/**/*"],
+  "exclude": ["node_modules"]
 }

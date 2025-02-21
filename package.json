@@ -1,17 +1,19 @@
 {
-  "name": "my-auth-lib",
-  "version": "1.0.0",
-  "type": "module",
+  "name": "@noopyjs/auth",
+  "version": "0.0.1",
+  "description": "Noopy - auth",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist/* && tsc",
+    "start": "node ./dist/index.js"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/jsonwebtoken": "^9.0.8",

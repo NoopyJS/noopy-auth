@@ -1,0 +1,12 @@
+node_modules
+examples
+yarn.lock
+package-lock.json
+.idea
+.gitignore
+.npmignore
+.github
+lib
+jest.config.js
+tsconfig.json
+yarn-error.log

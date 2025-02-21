@@ -21,10 +21,10 @@ tests/baselines/symlinks/*
 tests/services/baselines/prototyping/local/*
 tests/services/browser/typescriptServices.js
 src/harness/*.js
-src/compiler/diagnosticInformationMap.generated.ts
-src/compiler/diagnosticMessages.generated.json
-src/parser/diagnosticInformationMap.generated.ts
-src/parser/diagnosticMessages.generated.json
+lib/compiler/diagnosticInformationMap.generated.ts
+lib/compiler/diagnosticMessages.generated.json
+lib/parser/diagnosticInformationMap.generated.ts
+lib/parser/diagnosticMessages.generated.json
 rwc-report.html
 *.swp
 build.json
